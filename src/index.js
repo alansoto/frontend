@@ -10,7 +10,6 @@ import registerServiceWorker from './registerServiceWorker';
 import postsReducer from './post-list/reducers';
 
 //css
-import './index.css';
 import 'semantic-ui-css/semantic.min.css';
 
 const store = createStore(postsReducer,  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
